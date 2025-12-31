@@ -63,7 +63,7 @@ export default function Navbar() {
 
             <a
               href="#contact"
-              className="text-sm font-semibold px-4 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-colors"
+              className="text-sm font-semibold px-4 py-2 rounded-lg bg-amber-700 text-white hover:bg-amber-800 transition-colors"
               onClick={(e) => {
                 e.preventDefault();
                 handleNavClick("#contact");
