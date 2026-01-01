@@ -4,8 +4,8 @@ import { FiMenu, FiX } from "react-icons/fi";
 const NAV_ITEMS = [
   { label: "Home", href: "#home" },
   { label: "Products", href: "#products" },
-  { label: "About", href: "#about" },
   { label: "Contact", href: "#contact" },
+  { label: "About", href: "#about" },
 ];
 
 export default function Navbar() {

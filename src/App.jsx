@@ -42,7 +42,7 @@ function App() {
         <ShowcaseSection />
       </section>
       <section
-        id="about"
+        id="contact"
         className="p-24 bg-linear-to-b from-orange-50 to-orange-300"
       >
         <h1 className="font-instrument text-6xl text-center mb-2">
