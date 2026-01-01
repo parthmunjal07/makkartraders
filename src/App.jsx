@@ -10,6 +10,7 @@ function App() {
       <section
         className="h-screen pt-30"
         style={{ backgroundImage: `url(${PipeImg})` }}
+        id="home"
       >
         <div>
           <h1 className="font-instrument text-7xl text-center">
@@ -35,7 +36,7 @@ function App() {
         </div>
       </section>
       {/* Products */}
-      <section>
+      <section id="products">
           <ShowcaseSection />
       </section>
     </>
