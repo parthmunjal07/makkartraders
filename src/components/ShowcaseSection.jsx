@@ -122,19 +122,20 @@ export default function ShowcaseSection() {
             viewport={{ once: false, amount: 0.3 }}
             className="text-center space-y-6 px-4"
           >
-            <h2 className="text-4xl sm:text-5xl font-bold text-orange-900 mb-4">
-              Fresh & Vibrant
+            <h2 className="text-4xl sm:text-5xl font-instrument font-bold text-orange-900 mb-4">
+              Our Major Offerings
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-orange-400 to-amber-500 mx-auto mb-6" />
-            <p className="text-base sm:text-lg text-orange-800 leading-relaxed">
-              Discover the natural beauty and zest of citrus perfection. Each moment captured tells a story of freshness, vitality, and pure sunshine.
+            <p className="text-xl sm:text-2xl text-orange-800 leading-relaxed">
+              MS pipe and fittings
+                <br />
+                PVC pipe and fittings
+                <br />
+                Sanitary Goods
+                <br />
+                And much more!!
             </p>
-            <motion.button
-              whileTap={{ scale: 0.95 }}
-              className="px-8 py-3 bg-gradient-to-r from-orange-500 to-amber-500 text-white rounded-full font-semibold shadow-lg"
-            >
-              Explore More
-            </motion.button>
+            
           </motion.div>
 
           {/* All Images Grid */}
