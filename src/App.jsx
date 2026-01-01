@@ -2,10 +2,13 @@ import React from "react";
 import Navbar from "./components/NavBar";
 import PipeImg from "./assets/pipe.png";
 import ShowcaseSection from "./components/ShowcaseSection";
+import { Analytics } from '@vercel/analytics/react';
+
 
 function App() {
   return (
     <>
+    <Analytics />
       <Navbar />
       <section
         className="h-screen pt-30 "
