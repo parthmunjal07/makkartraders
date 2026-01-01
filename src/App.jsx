@@ -46,7 +46,7 @@ function App() {
         <h1 className="font-instrument text-6xl text-center underline underline-offset-8">
           About us
         </h1>
-        <p className="p-20 text-inter text-2xl">We have been running my store for more than 35 years, with rich experience in dealing in MS pipes, pipe fittings, sanitary items, and hardware products. Over the years, We have built strong relationships with customers by providing quality products, honest pricing, and reliable service. Our long journey in this business reflects trust, consistency, and deep knowledge of the market, making my store a dependable destination for all kinds of piping, sanitary, and hardware needs.</p>
+        <p className="p-20 font-inter text-2xl">We have been running my store for more than 35 years, with rich experience in dealing in MS pipes, pipe fittings, sanitary items, and hardware products. Over the years, We have built strong relationships with customers by providing quality products, honest pricing, and reliable service. Our long journey in this business reflects trust, consistency, and deep knowledge of the market, making my store a dependable destination for all kinds of piping, sanitary, and hardware needs.</p>
       </section>
       <section
         id="contact"
@@ -57,12 +57,12 @@ function App() {
         </h1>
         <div className="flex justify-center">
           <div>
-            <button className="bg-amber-800 text-white border-amber-900 border-4 rounded-3xl p-3 text-2xl m-2 font-inter">
+            <button className="bg-amber-800 text-white border-amber-900 border-4 rounded-3xl p-3 text-2xl m-2 font-inter cursor-pointer">
               <a href="mailto:makkartraders07@gmail.com">Mail us</a>
             </button>
           </div>
           <div>
-            <button className="bg-amber-800 text-white border-amber-900 border-4 rounded-3xl p-3 text-2xl m-2 font-inter">
+            <button className="bg-amber-800 text-white border-amber-900 border-4 rounded-3xl p-3 text-2xl m-2 font-inter cursor-pointer">
               <a href="tel:+919910056151">Call us</a>
             </button>
           </div>
