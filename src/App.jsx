@@ -41,9 +41,16 @@ function App() {
       <section id="products">
         <ShowcaseSection />
       </section>
+      
+      <section id="about" className="pt-24 bg-linear-to-b from-orange-50 to-orange-300">
+        <h1 className="font-instrument text-6xl text-center underline underline-offset-8">
+          About us
+        </h1>
+        <p className="p-20 text-inter text-2xl">We have been running my store for more than 35 years, with rich experience in dealing in MS pipes, pipe fittings, sanitary items, and hardware products. Over the years, We have built strong relationships with customers by providing quality products, honest pricing, and reliable service. Our long journey in this business reflects trust, consistency, and deep knowledge of the market, making my store a dependable destination for all kinds of piping, sanitary, and hardware needs.</p>
+      </section>
       <section
         id="contact"
-        className="p-24 bg-linear-to-b from-orange-50 to-orange-300"
+        className="p-24 bg-linear-to-b from-orange-300 to-orange-400"
       >
         <h1 className="font-instrument text-6xl text-center mb-2">
           Contact Us
