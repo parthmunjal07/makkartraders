@@ -75,7 +75,7 @@ export default function ShowcaseSection() {
                 Our Major Offerings
               </h2>
               <div className="w-24 h-1 bg-gradient-to-r from-orange-400 to-amber-500 mx-auto mb-6" />
-              <p className="text-2xl text-orange-800 leading-relaxed">
+              <p className="text-2xl text-orange-800 font-inter leading-relaxed">
                 MS pipe and fittings
                 <br />
                 PVC pipe and fittings
@@ -126,7 +126,7 @@ export default function ShowcaseSection() {
               Our Major Offerings
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-orange-400 to-amber-500 mx-auto mb-6" />
-            <p className="text-xl sm:text-2xl text-orange-800 leading-relaxed">
+            <p className="text-xl font-inter sm:text-2xl text-orange-800 leading-relaxed">
               MS pipe and fittings
                 <br />
                 PVC pipe and fittings
