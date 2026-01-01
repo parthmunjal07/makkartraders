@@ -8,7 +8,7 @@ function App() {
     <>
       <Navbar />
       <section
-        className="h-screen pt-30"
+        className="h-screen pt-30 "
         style={{ backgroundImage: `url(${PipeImg})` }}
         id="home"
       >
@@ -35,7 +35,6 @@ function App() {
           </div>
         </div>
       </section>
-      {/* Products */}
       <section id="products">
           <ShowcaseSection />
       </section>

@@ -4,7 +4,6 @@ import { FiMenu, FiX } from "react-icons/fi";
 const NAV_ITEMS = [
   { label: "Home", href: "#home" },
   { label: "Products", href: "#products" },
-  { label: "Services", href: "#services" },
   { label: "About", href: "#about" },
   { label: "Contact", href: "#contact" },
 ];
@@ -109,7 +108,7 @@ export default function Navbar() {
 
             <a
               href="#contact"
-              className="mt-2 inline-flex items-center justify-center text-sm font-semibold px-4 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700"
+              className="mt-2 inline-flex items-center justify-center text-sm font-semibold px-4 py-2 rounded-lg bg-amber-700 text-white hover:bg-amber-800"
               onClick={(e) => {
                 e.preventDefault();
                 handleNavClick("#contact");
