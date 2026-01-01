@@ -51,7 +51,7 @@ export default function Navbar() {
               <a
                 key={item.href}
                 href={item.href}
-                className="text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors"
+                className="text-m font-medium text-gray-700 hover:text-gray-900 transition-colors"
                 onClick={(e) => {
                   e.preventDefault();
                   handleNavClick(item.href);
@@ -63,7 +63,7 @@ export default function Navbar() {
 
             <a
               href="#contact"
-              className="text-sm font-semibold px-4 py-2 rounded-lg bg-amber-700 text-white hover:bg-amber-800 transition-colors"
+              className="text-m font-semibold px-4 py-2 rounded-lg bg-amber-700 text-white hover:bg-amber-800 transition-colors"
               onClick={(e) => {
                 e.preventDefault();
                 handleNavClick("#contact");

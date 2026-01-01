@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/NavBar";
 import PipeImg from "./assets/pipe.png";
+import ShowcaseSection from "./components/ShowcaseSection";
 
 function App() {
   return (
@@ -35,9 +36,7 @@ function App() {
       </section>
       {/* Products */}
       <section>
-        <h1 className="text-5xl text-center pt-20 font-instrument">
-          Our Products
-        </h1>
+          <ShowcaseSection />
       </section>
     </>
   );
